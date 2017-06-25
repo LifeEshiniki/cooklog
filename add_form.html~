@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>追加フォーム</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+<body>
+<h3>料理のアップロード</h3>
+<form action="library_add.php" method="post">
+<table border="1">
+<tr>
+<td>id</td>
+<td><input type="text" name="id"></td>
+</tr>
+<tr>
+<td>料理名</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>難易度</td>
+<td>
+<p>
+<select name="difficulty" size="1">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+</p></td>
+</tr>
+<tr>
+<td>出版社</td>
+<td><input type="text" name="pub"></td>
+</tr>
+<tr>
+<td>出版年</td>
+<td><input type="text" name="pubyear"></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="submit" value="追加"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
